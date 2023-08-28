@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>README - keap-js-client</title>
-
-</head>
-<body>
-
   <h1>keap-js-client</h1>
 
   <p>
@@ -29,12 +20,14 @@
 
   <h2>Usage</h2>
   <p>First, you will need to set the API key:</p>
+  <pre>
   <code>
     import { setApiKey } from 'keap-js-client';<br>
     setApiKey('Your-Keap-API-Key-Here');
   </code>
-
+</pre>
   <p>Then, you can use the library to call functions:</p>
+  <pre>
   <code>
     import { updateAccountProfile, AccountProfile } from 'keap-js-client';<br><br>
     const newAccountInfo: AccountProfile = {<br>
@@ -49,7 +42,7 @@
       }<br>
     })();
   </code>
-
+</pre>
   <h2>Interfaces</h2>
   <p>This library provides TypeScript interfaces like <code>ContactAddress</code> and <code>AccountProfile</code> to help you maintain strong typing.</p>
 
@@ -57,4 +50,3 @@
   <p>If you have any questions or suggestions, please feel free to reach out.</p>
 
 </body>
-</html>
